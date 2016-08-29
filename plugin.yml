@@ -1,0 +1,8 @@
+name: TutorialPlugin
+main: de.verkleckst.Tutorial.Hauptklasse
+author: verkleckst
+version: 1.0
+commands:
+   heal:
+     description: Heilen
+     aliases: h
