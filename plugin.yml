@@ -6,3 +6,6 @@ commands:
    heal:
      description: Heilen
      aliases: h
+   tp:
+     description: Teleportiern
+     aliases: minecraft:tp

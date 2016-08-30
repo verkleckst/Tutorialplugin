@@ -5,6 +5,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import de.verkleckst.Tutorial.Commands.CM_Heal;
+import de.verkleckst.Tutorial.Commands.CM_Tp;
 
 public class Hauptklasse extends JavaPlugin{
 	
@@ -33,6 +34,7 @@ public class Hauptklasse extends JavaPlugin{
 		
 		//Commands\\
 		getCommand("heal").setExecutor(new CM_Heal());
+		getCommand("tp").setExecutor(new CM_Tp());
 	}
 	
 }

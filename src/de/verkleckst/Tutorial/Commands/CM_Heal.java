@@ -20,7 +20,7 @@ public class CM_Heal implements CommandExecutor {
 			p.setHealth(20D);
 			p.setHealthScale(20D);
 			p.setFoodLevel(20);
-			p.sendMessage(Hauptklasse.prefix + "§7Du wurdest §cgeheilt§7!");
+			p.sendMessage(Hauptklasse.prefix + "§7Du wurdest von §e" + sender.getName() + " §cgeheilt§7!");
 		}
 		
 		return true;
